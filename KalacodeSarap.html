@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>KalabiteSarap!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background: linear-gradient(to right, #ff5024, #ffa28a);
+            color: rgb(64, 192, 64);
+            text-align: center;
+            padding: 50px 20px;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            text-shadow: 
+            -1px -1px 0 #000,
+             1px -1px 0 #000,
+            -1px  1px 0 #000,
+             1px  1px 0 #000;
+        }
+        header h2 {
+            margin: 0;
+            text-shadow: 
+            -1px -1px 0 #000,
+             1px -1px 0 #000,
+            -1px  1px 0 #000,
+             1px  1px 0 #000;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+        nav {
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ff5024;
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .menu-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .menu-item {
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 20px;
+            max-width: 300px;
+            transition: transform 0.3s ease;
+        }
+        .menu-item:hover {
+            transform: scale(1.05);
+        }
+        .menu-item h3 {
+            font-size: 1.5rem;
+            color: #007500;
+            margin-bottom: 10px;
+        }
+        .menu-item p {
+            font-size: 1rem;
+            color: #555;
+        }
+        #about p {
+            font-size: 1.1rem;
+            color: #444;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .about-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .about-more {
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 20px;
+            max-width: 400px;
+            transition: transform 0.3s ease;
+        }
+        .about-more:hover {
+            transform: scale(1.05);
+        }
+        #contact p {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+            .menu-container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+	<link rel="icon" type="x-icon" href="KalabiteIcon.jpg">
+</head>
+<body>
+    <header>
+        <img src="KalabiteIcon.jpg" 
+            width="100px" 
+            height="100px">
+        <h1>KalabiteSarap!</h1>
+        <h2>A bite so nice, you'll crave it twice!</h2>
+    </header>
+    <nav>
+        <a href="#menu">Menu</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="menu">
+        <h2>Menu</h2>
+        <div class="menu-container">
+            <div class="menu-item">
+                <img src="Menu1.jpg" alt="Order Now!" width="300px" height="424px"> 
+            </div>
+            <div class="menu-item">
+                <img src="Menu2.jpg" alt="Order Now!" width="300px" height="424px">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h2>Meet The SquasHeroes!</h2>
+        <p>The KALABITESARAP's booth is located in front of ESF LOBBY! We are Booth #30! So what are you waiting for? Have a date with your family or lover! And taste our products na sobrang yummers!</p>
+        <br>
+        <div class="about-container">
+        <div class="about-more">
+            <img src="AboutUs.jpg" alt="Masasarap!" width="350px" height="363px">
+        </div>
+    </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>📍 ESF Lobby, Tarlac National High School</p>
+        <h3><a href="https://www.facebook.com/profile.php?id=61568669904297">FB Page: KALABITESARAP</a></h3>
+        <p>📧 kalabitesarap37@gmail.com</p>
+    </section>
+    <footer>
+       
